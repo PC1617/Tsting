@@ -1,0 +1,22 @@
+{
+  "name": "snmsv4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.21.0",
+    "@influxdata/influxdb-client-apis": "^1.21.0",
+    "body-parser": "^1.19.1",
+    "express.js": "^1.0.0",
+    "knex": "^0.95.15",
+    "nodemon": "^2.0.15",
+    "open": "^8.4.0",
+    "pg": "^8.7.1"
+  }
+}
